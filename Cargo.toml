@@ -1,0 +1,10 @@
+[package]
+name = "wholesome_bot"
+version = "0.1.0"
+authors = ["Zoey Wilson <contactzoeywilson@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serenity = {version = "0.5", default-features = true}
+rand = "0.6.5"
+reqwest  = "0.9.11"
